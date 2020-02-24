@@ -20,7 +20,7 @@
     position: relative;
     display: flex;
     background-color: #F2F2F2;
-    
+        
 }
 
 .logo {
@@ -149,4 +149,193 @@ z-index: 3;
     font-size: 24px;
     font-weight: bold;
 }
-                            
+/* стили блока digits */      
+
+.digits {
+    padding-bottom: 100px;
+   
+}
+.section__title {
+   width: 60%;
+   margin: auto;
+   line-height: 69px;
+   font-size: 60px;
+   font-weight: bold;
+   
+   text-align: center;
+   
+   
+   
+}
+
+.section__subtitle {
+   width: 60%;
+   margin: auto;
+   padding: 20px 0px 0px 0px;
+   line-height: 34px;
+   font-size: 24px;
+   font-weight: normal;
+   text-align: center;
+}
+
+.table {
+   width: 1100px;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+   
+}
+
+.table_margin_auto {
+    margin: 0px auto 100px auto;
+}
+.table__cell {
+   width: 250px;
+   
+   
+}
+
+.table__cell_margin_top {
+   margin: 60px 0px 0px 0px;
+}
+
+.table__heading {
+   line-height: 1.15;
+   font-size: 24px;
+   font-weight: bold;
+   
+}
+
+.table__heading_margin_top {
+   margin: 20px 0px 0px 0px;
+}
+
+.table__heading_margin_bottom {
+   margin: 0px 0px 0px 0px;
+}
+.table__text {
+   line-height: 1.2;
+   font-size: 18px;
+   font-weight: normal;
+
+}
+
+/*Стили блока Feinman */
+
+.feinman {
+   height: 790px;
+   background-color: #F2F2F2;
+   position: relative;
+   display: flex;
+   justify-content: center;
+   
+   
+   
+
+    
+}
+
+.feinman__title {
+   width: 648px;
+   line-height: 1.15;
+   font-size: 120px;
+   font-weight: bold;
+   text-align: center;
+   position: absolute;
+   z-index: 2;
+    
+     
+}
+
+.feinman__subtitle {
+    line-height: 51px;
+    font-size: 36px;
+    font-weight: normal;
+    position: absolute;
+    z-index: 3;
+    display: flex;
+    align-self: center;
+    margin-top: 70px;
+
+}
+
+.feinman__link {
+    line-height: 51px;
+    font-size: 36px;
+    font-weight: normal;
+    position: absolute;
+    right: 48px;
+    top: 50%;
+    z-index: 4;
+
+}
+
+.feinman__illustration {
+    width: 867px;
+    height: 637px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: 1;
+    
+}
+
+/* Стили блока Kaufman */
+
+.kaufman {
+    background-color: #1F1F1F;
+    position: relative;
+    z-index: 0;
+}
+
+.section__title_theme_dark {
+    padding: 90px 0px 20px 0px;
+    color: white;
+    line-height: 69px;
+    font-size: 60px;
+    font-weight: bold;
+}
+
+.section__subtitle_theme_dark {
+    color: white;
+    line-height: 34px;
+    font-size: 24px;
+    font-weight: normal;
+
+}
+
+.table_theme_dark {
+    width: 1100px;
+    color: white;
+    margin: 0px auto 90px auto;
+}
+
+.table__cell_theme_dark {
+    width: 200px;
+    margin: 80px 0px 0px 0px;
+
+}
+
+.table__heading_theme_dark {
+    margin: 0px 0px 20px 0px;
+    line-height: 1.15;
+    font-size: 24px;
+    font-weight: bold;
+
+}
+
+.table__text_theme_dark {
+    line-height: 1.2;
+    font-size: 18px;
+    font-weight: normal;
+}
+
+.kaufman__triangle {
+    position: absolute;
+    top: 0px;
+    right: -210px;
+    overflow: hidden;
+    height: 877px;
+    width: 877px;
+    z-index: -1;
+}
