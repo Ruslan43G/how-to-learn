@@ -1,12 +1,5 @@
 @import url(./__triangle/kaufman__triangle.css);
 
-@keyframes bluetriangle_rotate {
-    from {transform: rotate(0deg);
-    }
-    to {transform: rotate(360deg);
-    }
-}
-
 .kaufman {
     overflow: hidden;
     background-color: #1F1F1F;
